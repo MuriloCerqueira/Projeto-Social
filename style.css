@@ -1,0 +1,72 @@
+@charset "UTF8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    height:85vh ;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 85vh;
+}
+
+section#Celular{
+    
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 468px;
+width: 233px;
+
+background-image: url(imagens/frame-iphone.png);
+
+    }
+
+    iframe#Celular-home{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-size: cover;
+        
+        
+        height: 358px;
+        width: 200px;
+        
+    }
+
+    section#menu-social img{
+        width: 40px;
+        margin: 10px;
+        border-radius: 50%; /* para dx o icone das redes sociais arredondado */
+        box-shadow: 2px 2px 2px 5px rgba(32, 32, 32, 0.603);
+        
+
+    }
+
+   section#menu-social{
+    text-align: right;
+    margin-right: 50px;
+   }
+
+   section#menu-social img:hover{
+
+    border: 2.5px solid rgba(116, 116, 117, 0.637);
+    transform: translate(-2px,-2px) ;
+    box-shadow:  5px 5px 10px rgba(113, 113, 116, 0.959);
+    transition: .2s;
+   }
+
+    
+
+body{
+    background-image: url(imagens/bf551796a8605452e36845e1a968e567.jpg);
+}
+
+
